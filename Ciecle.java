@@ -8,6 +8,8 @@ public class Circle{
     size += 10;
   }
   public int getSize(){
-    return size;
+    return size;   
+
+
   }
 }

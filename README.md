@@ -1,3 +1,2 @@
 # gui_java
-test
-aaa
+javaを用いたgraphic user interfaceの作成
