@@ -1,14 +1,10 @@
-import java.awt.BasicStroke;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
-import java.awt.*;
 import java.io.*;
 import javax.swing.*;
-import java.awt.event.*;
 import java.awt.image.*;
 import javax.imageio.ImageIO;
-import java.awt.geom.AffineTransform;
 
 public class MyImage extends MyDrawing{
   BufferedImage image = null;

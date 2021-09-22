@@ -1,11 +1,6 @@
 import java.util.Enumeration;
 import java.util.Vector;
-import java.awt.Rectangle;
-import java.awt.*;
-import java.awt.geom.*;
-import java.lang.Object;
 import java.awt.Color;
-import java.awt.Graphics2D;
 
 public class Mediator{
   Vector<MyDrawing> drawings;

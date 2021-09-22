@@ -1,7 +1,5 @@
 import java.awt.*;
-import java.awt.BasicStroke;
 import java.io.*;
-import java.awt.geom.*;
 
 
 public class MyDrawing implements Cloneable, Serializable{

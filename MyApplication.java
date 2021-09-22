@@ -2,16 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.Vector;
-import java.util.ArrayList;
-import java.awt.Graphics2D;
 import java.awt.Color;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import javax.swing.JColorChooser;
 import java.io.*;
-import java.util.Timer;
-import java.util.TimerTask;
-import java.awt.print.PrinterJob;
 
 public class MyApplication extends JFrame{
   State state;
@@ -33,8 +26,8 @@ public class MyApplication extends JFrame{
     jp.setLayout(new FlowLayout());
     jp2.setLayout(new FlowLayout());
     state = new State();
-    RectButton rectButton = new RectButton(state);
-    jp.add(rectButton);
+    // RectButton rectButton = new RectButton(state);
+    // jp.add(rectButton);
     OvalButton ovalButton = new OvalButton(state);
     jp.add(ovalButton);
     Button selectButton = new Button("Select");
