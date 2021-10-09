@@ -26,8 +26,8 @@ public class MyApplication extends JFrame{
     jp.setLayout(new FlowLayout());
     jp2.setLayout(new FlowLayout());
     state = new State();
-    // RectButton rectButton = new RectButton(state);
-    // jp.add(rectButton);
+    RectButton rectButton = new RectButton(state);
+    jp.add(rectButton);
     OvalButton ovalButton = new OvalButton(state);
     jp.add(ovalButton);
     Button selectButton = new Button("Select");
