@@ -9,6 +9,9 @@ $ java MyApplication
 
 <!-- ![](images/pic1.png) -->
 <img src="images/pic2.png" width="800">
+
+
+
 ### 機能の説明
 
 図形の作成 -> 長方形(Rectangle),円形(Oval)  
